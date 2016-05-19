@@ -22,7 +22,8 @@
 				 */
 				do_action( 'twentyfifteen_credits' );
 			?>
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentyfifteen' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentyfifteen' ), 'WordPress' ); ?></a>
+			<h3><a href="#">IntelliTees</a></h3>
+			<small>Copyright <?php echo date(Y); ?></small>
 		</div><!-- .site-info -->
 	</footer><!-- .site-footer -->
 
